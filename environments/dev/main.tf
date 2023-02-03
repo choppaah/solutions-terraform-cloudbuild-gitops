@@ -27,7 +27,7 @@ module "vpc" {
   env     = "${local.env}"
 }
 
-module "http_server" {
+module "http_serve2r" {
   source  = "../../modules/http_server"
   project = "${var.project}"
   subnet  = "${module.vpc.subnet}"
